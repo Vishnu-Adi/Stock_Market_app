@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+  }
+
+.stockPage{
+    padding-top: 12vh;
+    display: flex;
+}
+
+.stockChart{
+    height: 80vh;
+    width: 67%;
+    margin-left: 3vw;
+}
+
+.stockChartActions{
+    width: 30%;
+}
+.stockChartActions-head{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 4%;
+    margin-top: 8vh;
+
+}
+.stockChartActions-head .button-active{
+    background-color: #f1c40f;
+    border: 1px solid #f1c40f;
+    color: #000;
+    padding: 10px 0px;
+    width: 33%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    border-radius: 0.6rem;
+}
+.stockChartActions-head .button-inactive{
+    background-color: #000;
+    border: 1px solid #000;
+    padding: 10px 0px;
+    width: 33%;
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #f1c40f;
+    border-radius: 0.6rem;
+}
+
+
+.stockChartActions-body{
+
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5vh;
+    background-color: rgba(236, 240, 243, 0.152);
+    padding: 3vh 1.5vw;
+    border: 1px solid #394b9d28;
+    border-radius: 0.8rem;
+}
+
+
+.stockChartActions-body form label{
+
+    color: #f1c40f;
+}
+
+.stockChartActions-body form input{
+
+    color: #000;
+}
+
+.stockChartActions-body form select{
+
+    color: #f1c40f;
+    
+}
+
+.stockChartActions-body form p{
+
+    font-size: 0.7rem;
+    color: #f1c40f;
+}
+
+#inputProductType{
+    color: #000;
+    padding: 7px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#exampleInputPassword1{
+    color: #000;
+    padding: 7px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#inputStockTotalPrice{
+    color: #000;
+    padding: 7px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.submit-button{
+    background-color: #f1c40f;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(241, 196, 15, 0.75); /* Yellow glow effect */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+  }
+  
+  .submit-button:active {
+    transform: scale(0.95); /* Slightly shrink the button on click */
+  }

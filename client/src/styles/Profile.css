@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+  }
+
+.profilePage{
+
+    width: 100%;
+    padding-top: 12vh;
+}
+.profilePage h2{
+    margin: 4vh 5vw;
+    color: #f1c40f;
+}
+
+.profileBox{
+
+    width: 80%;
+    background-color: #0e0e0e83;
+    margin-left: 10%;
+    padding: 3vh 3vw;
+    border-radius: 0.5rem;
+}
+
+.profileBox-head p{
+    color: whitesmoke;
+}
+
+.profileBox-body{
+
+    display: flex;
+    align-items: center;
+    background-color: #282828;
+    padding: 2vh 1vw;
+    justify-content: space-between;
+    border-radius: 0.3rem;
+    color:whitesmoke;
+}
+
+.profileBox-body span h6{
+    color: whitesmoke;
+}
+
+
+.profileBox-body span{
+
+    margin: 0;
+    text-align: center;
+}
+.profileBox-body span p{
+
+    margin: 0;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.profileBox-body span h6{
+    font-size: 1.6rem;
+    margin: 0;
+    font-weight: 400;
+}
+.profileBox-body .cash-actions{
+
+    display: flex;
+    gap: 10px;
+
+}
+
+.profileBox-body .cash-actions .cash-actions-active{
+
+    background-color: #f1c40f;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    border: 1px solid #f1c40f;
+    border-radius: 0.4rem;
+    font-weight: 500;
+}
+
+
+.profileBox-body .cash-actions .cash-actions-inactive{
+
+    padding: 10px 20px;
+    font-size: 0.8rem;
+    background-color: #48484897;
+    color: #f1c40f;
+    border: 1px solid #f1c40f;
+    border-radius: 0.4rem;
+    font-weight: 500;
+}
+
+
+.profileBox-body .cash-actions button .cash-action-icons{
+    font-size: 1rem;
+}
+
+
+.ProfileFunds{
+    margin-left: 10%;
+    margin-top: 3vh;
+}
+
+.ProfileFunds h3{
+
+    font-size: 1.5rem;
+    color: #f1c40f;
+
+}
+
+.ProfileFunds form{
+    width: 30%;
+}
+
+
+.ProfileFunds input, .ProfileFunds select{
+    margin-left: 1.3rem;
+}
+
+.ProfileFunds button{
+    margin-left: 1.3rem;
+
+}
+
+.profileTransactions{
+    width: 60%;
+    height: 37vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+.profileTransactions::-webkit-scrollbar {
+    display: none;
+  }
+
+.profileTransaction{
+    display: flex;
+    background-color: #48484897;
+    padding: 10px 40px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1rem;
+    border: 1px solid #2f3c762e;
+}
+
+.profileTransaction span{
+    text-align: center;
+    
+}
+
+.profileTransaction span h6{
+    margin: 0;
+    font-size: 0.8rem;
+    color: #f1c40f;
+}
+
+.profileTransaction span p{
+    margin: 0;
+    font-size: 1.1rem;
+    color: #f1c40f;
+}
+
+.form-label{
+    color:whitesmoke;
+    display: block;
+}
+
+#amountInput{
+    padding: 10px;
+    margin: 5px;
+    display: block;
+}
+
+#selectInput{
+    margin: 3px;
+    padding: 10px;
+    display: block;
+}
+
+.submit-button{
+    background-color: #f1c40f;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(241, 196, 15, 0.75); /* Yellow glow effect */
+    transform: scale(1.05); /* Slightly enlarge the button on hover */
+  }
+  
+  .submit-button:active {
+    transform: scale(0.95); /* Slightly shrink the button on click */
+  }
+
+  .profileTransaction span p{
+    color: whitesmoke;
+  }

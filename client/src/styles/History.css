@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    color: whitesmoke;
+  }
+
+.historyPage{
+    padding-top: 13vh;
+    width: 100%;
+}
+
+.user-history-container{
+    width: 90%;
+    height: 85vh;
+    margin-left: 5%;
+    border-radius: 0.6rem;
+}
+.user-history-container-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh 4vw 2vh 1vw;
+    margin: 0 1vw;
+    border-bottom: 2px solid #8b8f9361;
+}
+
+.user-history-container-head h2{
+    font-size: 2.5rem;
+    color: #f1c40f;;
+}
+
+
+.user-history-container-search input{
+    width: 20vw;
+    padding: 10px 10px;
+    outline: none;
+    font-size: 0.8rem;
+    border-radius: 0.8rem;
+    border: 1px solid #22476979;
+    color: #f1c40f;
+}
+
+.user-history-container-search #searchIcon{
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: relative;
+    left: -2rem;
+    color: #f1c40f;
+}
+
+.user-history{
+
+    height: 70vh;
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    overflow-y: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+.user-history::-webkit-scrollbar {
+    display: none;
+  }
+
+.user-history-stock{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+    border: 1px solid #f1c40f;
+    margin: 0 2rem;
+    border-radius: 0.8rem;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.user-history-stock:hover{
+    background-color: rgba(213, 232, 251, 0.162);
+    border: 1px solid #2247692c;
+}
+
+.user-history-stock span{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f1c40f;
+}
+
+.user-history-stock span h5{
+    margin: 0;
+    font-size: 0.8rem;
+    color: #f1c40f;
+}
+
+.user-history-stock h6{
+    margin: 0;
+    padding: 5px 8px;
+    background-color: rgba(161, 205, 234, 0.199);
+    color: #f1c40f;
+}
+
+.user-history-stock span p{
+    margin: 0;
+    font-size: 0.9rem;
+    color: whitesmoke;
+}
